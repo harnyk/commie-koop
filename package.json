@@ -5,7 +5,10 @@
   "keywords": [],
   "license": "WTFPL",
   "author": "",
-  "type": "module",
+  "files": [
+    "src",
+    "lib"
+  ],
   "exports": {
     ".": {
       "types": "./lib/main.d.ts",
