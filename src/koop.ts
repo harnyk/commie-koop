@@ -24,7 +24,7 @@ export class Koop {
     return this;
   }
 
-  public prompt(name: string, handler: () => string): this {
+  public prompt(name: string, handler: PromptHandler): this {
     const p: ManifestPrompt = {
       selfInvoke: true,
       args: ['-p', name],
