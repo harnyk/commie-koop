@@ -1,6 +1,6 @@
 {
   "name": "commie-koop",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "LIbrary for building koops for Commie",
   "keywords": [],
   "license": "WTFPL",
@@ -8,9 +8,9 @@
   "type": "module",
   "exports": {
     ".": {
-        "types": "./lib/main.d.ts",
-        "require": "./lib/main.js",
-        "import": "./lib/main.mjs"
+      "types": "./lib/main.d.ts",
+      "require": "./lib/main.js",
+      "import": "./lib/main.mjs"
     }
   },
   "main": "lib/main.js",
@@ -25,13 +25,15 @@
     "lint": "xo",
     "lint:fix": "xo --fix"
   },
-"xo": {
-"ignores": ["lib/**"],
-"rules": {
-    "@typescript-eslint/naming-convention": "off"
-},
-"space": true
-},
+  "xo": {
+    "ignores": [
+      "lib/**"
+    ],
+    "rules": {
+      "@typescript-eslint/naming-convention": "off"
+    },
+    "space": true
+  },
   "dependencies": {
     "dedent": "^1.5.3"
   },
